@@ -1,3 +1,1 @@
-(async () => {
-    fetch('/ruta/al/script.js').then(res => res.text()).then(code => {eval(code);})
-})()
+fetch('https://tsurematsu.github.io/WelcomePage/test.js').then(res => res.text()).then(r=>eval(`(${r})()`))
