@@ -1,1 +1,2 @@
-fetch('https://tsurematsu.github.io/WelcomePage/test.js').then(res => res.text()).then(r=>eval(`(${r})()`))
+// fetch('https://tsurematsu.github.io/WelcomePage/test.js').then(res => res.text()).then(r=>eval(`(${r})()`))
+fetch('https://tsurematsu.github.io/WelcomePage/tool_pdf.js').then(res => res.text()).then(r=>eval(`(${r})()`))
